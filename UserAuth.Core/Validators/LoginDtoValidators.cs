@@ -17,7 +17,7 @@ namespace UserAuth.Core.Validators
 
             RuleFor(temp => temp.Email)
                 .NotEmpty().WithMessage("Email is Required")
-                .EmailAddress().WithMessage("Ivalid Email");
+                .EmailAddress().WithMessage("Ivalid Email, Please Enter Valid Email");
         }
     }
 }
